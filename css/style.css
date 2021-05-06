@@ -1,0 +1,22 @@
+.consome-body{
+    margin: 0;
+    padding: 0;
+}
+.consome__btn{
+    display: block;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+}
+.consome__h1--smaller, .consome__h3--smaller{
+    font-size: 1.5rem;
+}
+.consome__ul{
+    list-style: none;
+}
+.consome__btn--black{
+    color: white;
+    background-color: black;
+}
