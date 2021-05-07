@@ -10,10 +10,21 @@
     padding: 1rem 2rem 1rem 2rem;
     font-weight: bold;
 }
+.consome__margin-bottom{
+    margin-bottom: 6rem;
+}
+.header-consome__banner{
+    width: 100%;
+    height: auto;
+}
 .consome__h1--smaller, .consome__h3--smaller{
     font-size: 1.5rem;
 }
+.consome__p--smaller{
+    font-size: 0.5;
+}
 .consome__ul{
+    padding: 0;
     list-style: none;
 }
 .consome__btn--black{
@@ -25,4 +36,32 @@
 }
 .consome__carousel-inner{
     height: 280px!important;
+}
+.consome__img{
+    width: 100%;
+    height: auto;
+}
+.sect6-consome__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.sect6-consome__span{
+    font-size: 2rem;
+}
+.sect7-consome__p{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.sect7-consome__btn{
+    display: block;
+    margin: 1% auto 0 auto;
+    font-weight: 400;
+    width: 50%;
+}
+.sect7-consome__btn--black{
+    color: white;
+    background-color: black;
 }
