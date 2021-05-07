@@ -10,6 +10,23 @@
     padding: 1rem 2rem 1rem 2rem;
     font-weight: bold;
 }
+.consome__btn:hover{
+    text-decoration: underline;
+    color: black;
+}
+.consome__btn:active{
+    box-shadow: 5px;
+}
+.consome__btn--black{
+    color: white;
+    background-color: black;
+}
+.consome__btn--black:hover{
+    color:white!important;
+}
+.consome__btn--black:active{
+    color: yellow!important;
+}
 .consome__margin-bottom{
     margin-bottom: 6rem;
 }
@@ -27,10 +44,7 @@
     padding: 0;
     list-style: none;
 }
-.consome__btn--black{
-    color: white;
-    background-color: black;
-}
+
 .consome__svg{
     width: 1rem;
 }
@@ -40,6 +54,12 @@
 .consome__img{
     width: 100%;
     height: auto;
+}
+.sect6-consome__card--a{
+    opacity: 0.8;
+}
+.sect6-consome__card--a:hover{
+    opacity: 1;
 }
 .sect6-consome__text{
     position: absolute;
@@ -64,4 +84,10 @@
 .sect7-consome__btn--black{
     color: white;
     background-color: black;
+}
+.sect7-consome__btn--black:hover{
+    color: white!important;
+}
+.sect7-consome__btn--black:active{
+    box-shadow: 5px;
 }
