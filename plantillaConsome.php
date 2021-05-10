@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Landing Consomes</title>
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-<body class="consome-body">
-   <!--Header-->
-   <section class="header-consome container-fluid">
+<?php
+
+/**
+ * Template Name: plantillaConsome
+ */
+
+get_header(); ?>
+
+<section class="header-consome container-fluid">
       <div class="row align-items-center justify-content-center">
          <div class="header-consome__banner-container col-12 col-md-8 order-md-2">
             <img src="https://picsum.photos/1000/400" alt="" class="header-consome__banner">
          </div>
          <div class="consome__text col-12 col-md-4 pl-md-4 d-flex align-content-center flex-column order-md-1">
             <h1 class="consome__h1 text-center">Tazas de consomé para este verano</h1>
-            <a href="#sect4" class="consome__btn text-center">Ver todas</a>
+            <a href="#sect4-consome" class="consome__btn text-center">Ver todas</a>
          </div>
       </div>
    </section>
@@ -163,7 +159,7 @@
                   <h2 class="consome__h2 my-4">Juego de tazas de consomé | Azul cobalto DUISBURG</h2>
                   <p class="consome__p">Sus motivos sólidos azul cobalto contrastan con el blanco marfil de la porcelana. En este juego encontrarás las tazas de consomé con su respectivo platito a juego. </p>
                </div>
-               <a href="#" class="consome__btn consome__btn text-center">Ver producto</a>
+               <a href="https://franquihogaronline.com/juego-de-consome-duisburg/" class="consome__btn consome__btn text-center">Ver producto</a>
             </div>
          </div>
       </article>
@@ -203,7 +199,7 @@
                   <h2 class="consome__h2 my-4">Tazones de consomé y platitos | Porcelana blanca con filo de oro Lubeck</h2>
                   <p class="consome__p">Descubre el juego de consomé Ovum. Contemporánea y minimalista.</p>
                </div>
-               <a href="#" class="consome__btn consome__btn--black text-center">Ver producto</a>
+               <a href="https://franquihogaronline.com/tazones-de-consome-lubeck/" class="consome__btn consome__btn--black text-center">Ver producto</a>
             </div>
          </div>
       </article>
@@ -213,7 +209,7 @@
       <p class="sect5-consome__p h1">Envio 100% Asegurado sin roturas</p>
    </section>
    <!--Section 4: Producto detalles * 3-->
-   <section class="sect4-consome container-fluid">
+   <section class="sect4-consome container-fluid" id="sect4-consome">
       <div class="row">
          <article class="sect4-consome__product col-12 col-lg-4 pr-5 pb-3 d-flex flex-column justify-content-between text-center">
             <a href="https://franquihogaronline.com/juego-de-consome-ovum/">
@@ -355,8 +351,7 @@
       <a href="mailto:team@franquihogar.com" target="_blank" class="sect7-consome__btn consome__btn">Email</a>
       <a href="https://wa.me/34678300349" target="_blank" class="sect7-consome__btn consome__btn sect7-consome__btn--black">Whatsapp</a>
    </section>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+    
+
+<?php
+get_footer();
